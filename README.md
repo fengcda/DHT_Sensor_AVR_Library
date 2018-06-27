@@ -1,1 +1,1 @@
-# DHT_Sensor_AVR_Library
+# AVR DHT Sensor Library
