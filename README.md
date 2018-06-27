@@ -31,7 +31,7 @@ The next 16 bits represent the temperature in degree C, which requires the same 
 
 Since the DHT11 sensor does not have decimal level accuracy, the conversion is not used and only the 1st and 3rd bytes are outputted.
  
-### Implementation
+## Implementation
 
 This code is written for the Atmega 1284 @8Mhz but is configurable to work with any product compatible with AVR-GCC.
 
@@ -50,9 +50,9 @@ Below is an example of how DHT.h can be set up. Defining the utilized pin and se
 #define DHT_TYPE DHT_DHT22
 ```
 
-## Displaying the data
+### Displaying the data
 
-In the included testbench the data is outputted to a 1602A LCD display. The included libraries for that specific LCD screen are included. The output data stored two separate 16 bit integers, and displaying to any other LCD should be cake.
+In the included testbench the data is outputted to a 1602A LCD display. The included libraries for that specific LCD screen are included. The output data is stored two separate 16 bit integers, and displaying to any other LCD should be cake.
 
 Keep in mind the data retrieval process is slow and takes nearly up to 2 seconds for each refresh.
 
@@ -62,7 +62,7 @@ The end result should be something like this:
 
 Explain what these tests test and why
 
-## Built With
+### Built With
 
 * [Atmel Studio 7](http://www.microchip.com/mplab/avr-support/atmel-studio-7) - integrated development platform used
 * [AVRISP mkII](https://www.microchip.com/developmenttools/ProductDetails/atavrisp2) - AVR microcontroller programmer
@@ -72,5 +72,5 @@ Explain what these tests test and why
 * Special thanks to Dr. Philip Brisk at UCR for teaching EE/CS 120B at UC Riverside which inspired to build this library.
 * A lot of this code was adapted for my final project (Lab Chemical Temperature Sensor) which you can find [here](https://drive.google.com/drive/u/1/folders/1jun-SS4S1ZxK5DPT-s2teyDszfePHfHl).
 
-## Questions & Concerns
+### Questions & Concerns
 If you have any questions or concerns, please feel free to email me at [fengcda@gmail.com](mailto:fengcda@gmail.com)
