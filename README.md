@@ -24,7 +24,7 @@ A total of 40 bits are received from the DHT sensor. The first 16 bits represent
 For example:
 
 ```
-0000 000 1111 10101 = 501 / 10 = 50.1% Relative Humidity
+0000 0001 1111 0101 = 501 / 10 = 50.1% Relative Humidity
 ```
 
 The next 16 bits represent the temperature in degree C, which requires the same conversion as above. The last 8 bits represent the checksum, which is lower 8 bits of the sum of the first 3 bytes.
