@@ -68,7 +68,7 @@ The end result should be something like this:
 
 ## Acknowledgments
 
-* Special thanks to Dr. Philip Brisk at UCR for teaching EE/CS 120B at UC Riverside which inspired to build this library.
+* Special thanks to Dr. Philip Brisk at UCR for teaching EE/CS 120B which inspired to build this library.
 * A lot of this code was adapted for my final project (Lab Chemical Temperature Sensor) which you can find [here](https://drive.google.com/drive/u/1/folders/1jun-SS4S1ZxK5DPT-s2teyDszfePHfHl).
 
 ## Questions & Concerns
