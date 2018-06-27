@@ -70,7 +70,7 @@ Explain what these tests test and why
 ## Acknowledgments
 
 * Special thanks to Dr. Philip Brisk at UCR for teaching EE/CS 120B at UC Riverside which inspired to build this library.
-* A lot of this code was adapted for my final project (Lab Chemical Temperature Sensor) which you can find [here](https://drive.google.com/drive/u/1/folders/1jun-SS4S1ZxK5DPT-s2teyDszfePHfHl)
+* A lot of this code was adapted for my final project (Lab Chemical Temperature Sensor) which you can find [here](https://drive.google.com/drive/u/1/folders/1jun-SS4S1ZxK5DPT-s2teyDszfePHfHl).
 
 ## Questions & Concerns
 If you have any questions or concerns, please feel free to email me at [fengcda@gmail.com](mailto:fengcda@gmail.com)
