@@ -48,7 +48,6 @@ Below is an example of how DHT.h can be set up. Defining the utilized pin and se
 #define DHT_DHT11 0
 #define DHT_DHT22 1
 #define DHT_TYPE DHT_DHT22
-
 ```
 
 ## Displaying the data
